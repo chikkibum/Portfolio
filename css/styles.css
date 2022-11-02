@@ -62,8 +62,7 @@ a{
 }
 
 .bottom-container{
-    margin: 100px auto auto auto;
-    padding: 20px;
+    padding: 60px;
     background-color: #e3f8ff;
 }
 
@@ -133,7 +132,7 @@ a{
 
   .bottom-skating{
     line-height: 1.5;
-    margin: 40px auto 50px auto;
+    padding: 60px;
   }
 
 .bottom-hr{
