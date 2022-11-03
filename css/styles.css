@@ -151,19 +151,19 @@ a{
     width: 100%;
 }
 
-.navbar li{
+.nav-list{
     list-style-type: none;
     float: left;
     padding: 5px;
     margin: 30px 10px 30px auto;
 }
 
-.navbar ul{
+.nav-ul{
     overflow: auto;
     margin: o;
 }
 
-.navbar li a{
+.nav-a{
     padding: 5px;
     color: #11999E;
     font-size: large;
@@ -171,7 +171,7 @@ a{
     text-decoration: none;
 }
 
-.navbar li a:hover{
+.nav-a:hover{
     background-color: #e3f8ff;
     border-radius: 10px;
     text-decoration: solid;
