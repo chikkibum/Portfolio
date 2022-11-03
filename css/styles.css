@@ -48,26 +48,28 @@ a{
 }
 
 .top-container{
-    position: relative;
-    padding-top: 100px;
-    margin: 80px auto 20px auto;
+    padding-top: 150px;
+    margin: auto auto 20px auto;
+    width: 100%;
  
 }
 
 .middle-container{
     display: in;
     margin: 10px auto 100px auto;
+    width: 50%;
 
 
 }
 
 .bottom-container{
-    padding: 60px;
+    margin: 100px auto auto auto;
+    padding: 20px;
     background-color: #e3f8ff;
 }
 
 .skill-row{
-    width: 50%;
+    /*width: 100%;*/
     margin: 100px auto 100px auto;
     line-height: 2;
     text-align: left;
@@ -75,20 +77,20 @@ a{
 
 .web-developement{
     border-radius: 50%;
-    width: 30%;
+    width: 20%;
     float: left;
 
 }
 
 .video-editing{
     border-radius: 15%;
-    width: 30%;
+    width: 20%;
     float: left;
 }
 
 .skates{
     position: relative;
-    width: 30%;
+    width: 20%;
     float: right;
 }
 
@@ -118,6 +120,7 @@ a{
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    margin: 50px auto 50px auto;
   }
   
   .btn:hover {
@@ -132,10 +135,63 @@ a{
 
   .bottom-skating{
     line-height: 1.5;
-    padding: 60px;
+    margin: 40px auto 50px auto;
   }
 
 .bottom-hr{
     margin: 15rem auto 5rem auto;
 
   }
+
+
+.navbar{
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar li{
+    list-style-type: none;
+    float: left;
+    padding: 5px;
+    margin: 30px 10px 30px auto;
+}
+
+.navbar ul{
+    overflow: auto;
+    margin: o;
+}
+
+.navbar li a{
+    padding: 5px;
+    color: #11999E;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    background-color: #e3f8ff;
+    border-radius: 10px;
+    text-decoration: solid;
+    font-size: 20px;
+}
+
+.search-box{
+    margin: 12px 40px auto 20px;
+    float: right;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+}
+
+.search-box input{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto 20px auto 30px;
+    width: 100%;
+}
