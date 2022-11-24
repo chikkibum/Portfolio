@@ -164,7 +164,7 @@ a{
 }
 
 .nav-a{
-    padding: 5px;
+    padding: 2rem;
     color: #11999E;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
@@ -174,14 +174,14 @@ a{
 .nav-a:hover{
     background-color: #e3f8ff;
     border-radius: 10px;
-    text-decoration: solid;
-    font-size: 20px;
+    text-decoration: underline;
+    /*font-size: 20px;*/
 }
 
 .search-box{
     margin: 12px 40px auto 20px;
     float: right;
-    padding: 15px;
+    padding: 1.0rem;
     background-color: aliceblue;
     border-radius: 20px;
 
